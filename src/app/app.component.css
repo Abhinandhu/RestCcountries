@@ -1,0 +1,59 @@
+.image{
+    height: 50em; background-size: cover ; width:auto;
+     background-image:url("assets/world.png");  
+     margin: 0;
+     padding: 0;
+}
+
+.navbar{
+    margin-bottom:0;
+    background-color: rgb(192,192,192);
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar-nav  {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(70,70,70);
+}
+
+ul.navbar-nav  li {
+    float: left;
+}
+
+
+ul.navbar-nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+ul.navbar-nav  li a:hover {
+    background-color: rgb(0,0,0);
+}
+
+.navbar-brand {
+    color: rgb(120,120,120);
+}
+
+.navbar-nav  input[type=text] {
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 600px){ 
+    ul.navbar-nav  li {
+        float: none;
+    }
+}
